@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class NicaApiApplication
+class NiceApiApplication
 
 fun main(args: Array<String>) {
-    runApplication<NicaApiApplication>(*args)
+    runApplication<NiceApiApplication>(*args)
 }

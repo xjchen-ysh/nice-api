@@ -2,7 +2,7 @@ package com.zyr.nice
 
 import org.junit.jupiter.api.Test
 
-class NicaApiApplicationTests {
+class NiceApiApplicationTests {
 
     @Test
     fun contextLoads() {
