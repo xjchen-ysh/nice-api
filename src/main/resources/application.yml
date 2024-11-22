@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /nice
+
+spring:
+  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password: password
+    url: jdbc:mysql://49.64.220.127:13305/test?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
